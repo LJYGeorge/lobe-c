@@ -28,6 +28,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "engines": {
+  "bun": "~1.0.0" 
+},
   "scripts": {
     "build": "next build",
     "postbuild": "npm run build-sitemap && npm run build-migrate-db",
